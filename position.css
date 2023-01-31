@@ -1,18 +1,18 @@
 * {
-	
+
 	background-color: whitesmoke;
 
 	font-weight: 100;
-	 box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 
 
 
 
-.cv{
+.cv {
 	background: red;
 	top: 20px;
 	max-width: 100% !important;
@@ -24,38 +24,39 @@
 
 .cv:hover {
 	background: rgb(210, 95, 18);
-	
+
 	text-align: center;
 	display: block;
 
 }
 
-.nombre{
-	
-	background:black;
+.nombre {
+
+	background: black;
 	position: relative;
 	max-width: 100% !important;
 	color: white;
-	
+
 	z-index: 20;
 	text-align: left;
 	font-family: 'Playball', cursive;
 	font-size: 40px;
 }
+
 .nombre:hover {
-	background:black;
+	background: black;
 	position: relative;
 	max-width: 100% !important;
 	color: greenyellow;
-	
+
 	z-index: 20;
 	text-align: left;
 	font-family: 'Playball', cursive;
 
 }
 
-.datosPersonales{
-	
+.datosPersonales {
+
 	background: orange;
 	position: relative;
 	left: 15px;
@@ -63,12 +64,14 @@
 	top: 130px;
 	max-width: 50%;
 	font-size: 30px;
-	
-	
+	cursor: pointer;
+
+
 
 }
-.redes{
-	
+
+.redes {
+
 	background: orange;
 	position: relative;
 	left: 60%;
@@ -77,50 +80,53 @@
 	max-width: 40%;
 	font-size: 30px;
 
+
 }
+
 .textoRedes {
-    
-    color: rgb(0, 0, 5);
-    text-align: center;
+
+	color: rgb(0, 0, 5);
+	text-align: center;
 	font-size: 25px;
-	
-    
+
+
 }
 
 
 
 
-.contenedor{
-	
+.contenedor {
+
 	background: white;
 	position: relative;
 
 	height: auto;
-	
+
 	width: 800px;
-    margin: auto;
-
-    border: 5px solid black;
-    text-align: center;
-	font-size: 20px;
-	
-	
-
-}
-.texto {
-    
 	margin: auto;
-    color: rgb(0, 0, 5);
-    text-align: left;
-    font-size: 20px;
+
+	border: 5px solid black;
+	text-align: center;
+	font-size: 20px;
+
+
+
+}
+
+.texto {
+
+	margin: auto;
+	color: rgb(0, 0, 5);
+	text-align: left;
+	font-size: 20px;
 
 }
 
 
 
 
-.foto{
-	
+.foto {
+
 	background: rgb(255, 255, 255);
 	position: absolute;
 	width: 160px;
@@ -128,9 +134,9 @@
 	top: 35px;
 	right: 15px;
 	z-index: 100;
-border: 5px solid black;
-background-image: url(img/foto_cv.jpg);
-background-size: cover;
+	border: 5px solid black;
+	background-image: url(img/foto_cv.jpg);
+	background-size: cover;
 
 }
 
@@ -143,15 +149,15 @@ background-size: cover;
 	top: 25px;
 	right: 5px;
 	z-index: 100;
-border: 5px solid rgb(26, 236, 7);
-background-image: url(img/foto_cv.jpg);
-background-size: cover;
+	border: 5px solid rgb(26, 236, 7);
+	background-image: url(img/foto_cv.jpg);
+	background-size: cover;
 
 }
 
 
-.frase{
-	
+.frase {
+
 	background: rgb(255, 255, 255);
 	position: absolute;
 	width: 78%;
@@ -162,13 +168,13 @@ background-size: cover;
 	align-items: center;
 	color: black;
 	font-size: 30px;
-	
+
 
 }
 
 
-.estudios{
-	
+.estudios {
+
 	background: orange;
 	position: relative;
 	left: 60%;
@@ -176,9 +182,22 @@ background-size: cover;
 	top: -65px;
 	max-width: 40%;
 	font-size: 30px;
-	
+
 }
-.textoestudios{
+
+.textoestudios {
+	background-color: white;
+	background: white;
+	position: relative;
+	text-align: left;
+	z-index: 1000;
+	max-width: 100%;
+	font-size: 18px;
+	column-count: 2;
+
+}
+
+.textoExtra {
 	background-color: white;
 	background: white;
 	position: relative;
@@ -186,34 +205,24 @@ background-size: cover;
 	z-index: 1000;
 	max-width: 100%;
 	font-size: 20px;
-	column-count:3;
-	
+
+
 }
-.textoExtra{
-	background-color: white;
-	background: white;
-	position: relative;
-	text-align: left;
-	z-index: 1000;
-	max-width: 100%;
-	font-size: 20px;
-	
-	
-}
-.extra{
+
+.extra {
 	background: orange;
 	text-align: center;
 	position: relative;
-	
+
 	z-index: 10;
 	max-width: 100%;
 	font-size: 30px;
-	
-	
+
+
 }
 
-.expLaboral{
-	
+.expLaboral {
+
 	background: orange;
 	position: relative;
 	left: 60%;
@@ -223,8 +232,9 @@ background-size: cover;
 	font-size: 30px;
 
 }
+
 .textoLaboral {
-    
+
 	background-color: white;
 	background: white;
 	position: relative;
@@ -232,35 +242,46 @@ background-size: cover;
 	z-index: 1000;
 	max-width: 100%;
 	font-size: 20px;
-    
-}
-#otros{display:none;}
-#otrosLaboral{display:none;}
-#otrosExtra{display:none;}
 
-.boton{
-	
-text-align: center;
 }
 
-.botonlaboral{
-	
+#otros {
+	display: none;
+}
+
+#otrosLaboral {
+	display: none;
+}
+
+#otrosExtra {
+	display: none;
+}
+
+.boton {
+
 	text-align: center;
-	}
-	.botonExtra{
-	
-		text-align: center;
-		}
-button{
-	
-	background-color: rgb(227, 169, 179);
-	
-	
 }
 
-.pie{
-	
-	
+.botonlaboral {
+
+	text-align: center;
+}
+
+.botonExtra {
+
+	text-align: center;
+}
+
+button {
+
+	background-color: rgb(227, 169, 179);
+	cursor: pointer;
+
+}
+
+.pie {
+
+
 	position: relative;
 	max-width: 100% !important;
 	color: black;
@@ -268,9 +289,10 @@ button{
 	text-align: center;
 	font-family: 'Playball', cursive;
 	font-size: 12px;
-	
+
 
 }
+
 .pie:hover {
 	position: relative;
 	max-width: 100% !important;
@@ -279,5 +301,15 @@ button{
 	text-align: center;
 	font-family: 'Playball', cursive;
 	font-size: 12px;
+
+}
+
+@media only screen and (max-width: 800px) {
+	div {
+		display: block;
+		width: 100%;
+	}
+
+
 
 }
