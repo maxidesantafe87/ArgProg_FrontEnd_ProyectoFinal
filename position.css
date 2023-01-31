@@ -60,7 +60,7 @@
 	left: 15px;
 	z-index: 10;
 	top: 130px;
-	max-width: 50%;
+	max-width: 35%;
 	font-size: 30px;
 	cursor: pointer;
 
@@ -74,12 +74,25 @@
 	position: relative;
 	left: 60%;
 	z-index: 10;
-	top: -85px;
+	top: -122px;
 	max-width: 40%;
 	font-size: 30px;
 
 
 }
+.portafolioBox {
+
+	background: orange;
+	position: relative;
+	left: 38%;
+	z-index: 10;
+	top: -88px;
+	max-width: 20%;
+	font-size: 30px;
+
+
+}
+
 
 .textoRedes {
 
@@ -153,7 +166,42 @@
 
 }
 
+.portafolio {
 
+	
+	position: absolute;
+	
+	top: 50px;
+	width: 155px;
+	height: 13vh;
+	
+	
+	z-index: 100;
+	
+	background-image: url(img/qr.png);
+	
+	
+	background-size: cover;
+  
+  overflow: hidden;
+
+}
+
+
+.portafolio:hover {
+
+	
+	position: absolute;
+	left: -7px;
+	top: 50px;
+	width: 175px;
+	height: 14vh;
+	
+	background-image: url(img/qr.png);
+	background-size: cover;
+    overflow: hidden;
+
+}
 .frase {
 
 	background: rgb(255, 255, 255);
