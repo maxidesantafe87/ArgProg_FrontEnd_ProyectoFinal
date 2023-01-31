@@ -129,7 +129,7 @@
 	right: 15px;
 	z-index: 100;
 border: 5px solid black;
-background-image: url(/img/foto_cv.jpg);
+background-image: url(img/foto_cv.jpg);
 background-size: cover;
 
 }
@@ -144,7 +144,7 @@ background-size: cover;
 	right: 5px;
 	z-index: 100;
 border: 5px solid rgb(26, 236, 7);
-background-image: url(/img/foto_cv.jpg);
+background-image: url(img/foto_cv.jpg);
 background-size: cover;
 
 }
