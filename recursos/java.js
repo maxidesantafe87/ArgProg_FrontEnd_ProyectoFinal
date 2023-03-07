@@ -54,6 +54,6 @@ function cambioDeColor() {
     for (var i = 0; i < elementos.length; i++) {
       elementos[i].style.backgroundColor = "#2E89F8DB";
     }
-    document.body.style.backgroundColor = "#FFFFFF";
-    document.documentElement.style.backgroundColor = "#FFFFFF";
+    document.body.style.backgroundColor = "#F5F5F5";
+    document.documentElement.style.backgroundColor = "#F5F5F5";
 }
